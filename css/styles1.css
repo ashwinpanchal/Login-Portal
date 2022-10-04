@@ -1,0 +1,56 @@
+.left-section{
+    background-image: linear-gradient(to bottom right, #f2d184, #ef8172);
+}
+
+.btn-danger{
+    background-color: #ef8172;
+    margin-top: 1rem;
+}
+
+h3{
+    line-height: 1.5;
+    font-size: 1.2rem;
+}
+
+.name1{
+    text-align: center;
+}
+
+h1{
+    top: 25rem;
+}
+
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    border-color: grey;
+    border-width: 7px;
+    width: 20%;
+    margin-left: 40%;
+}
+
+.buttonsignin{
+    margin: 0;
+}
+
+.bi-arrow-left-circle-fill{
+    margin-right: 0.5rem;
+}
+
+@media(max-width:767px){
+    .signinbox{
+        height: 45rem;
+    }
+    .btn-danger{
+        margin-bottom: 0;
+    }
+    .name1{
+        text-align: initial;
+    }
+}
+
+@media(max-height:600px){
+    .left-section{
+        height: 43rem;
+    }
+}
